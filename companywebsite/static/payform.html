@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="css/styleform.css">
+
+</head>
+<body>
+    <form action="">
+        <div class="container">
+        <h1>Payment Form</h1>
+        <h2>contact details:</h2>
+        <p><b>* marked details must be filled</b></p>
+        <p>Name *: <input type="text" name="name" id="name" placeholder="enter your name" required></p>
+        <legend>Gender 
+            <fieldset>
+          <p>Male :<input type="radio" name="gender" id="gender">  Female :<input type="radio" name="gender" id="gender"></p>
+        </fieldset>
+        </legend>
+        <p>Address : <textarea name="address" id="address" cols="100" rows="8" placeholder="enter your address"></textarea></p>
+    <p>Email id *: <input type="email" name="mail_id" id="mail_id"required placeholder="enter your email"></p>
+    <p>Pincode : <input type="password" name="password" id="password" required placeholder="enter your pin"></p>
+    <h2>Card Details:</h2>
+    <p>Card Type : 
+        <select name="card type" id="card type">
+            <option value="">select your card catogory</option>
+    <option value="master card">Master Card</option>
+    <option value="credit card">Credit Card</option>
+    <option value="debit card">Debit Card</option>
+    <option value="visa card">Visa Card</option>
+        </select>
+    </p>
+    <p>Card Number : <input type="number" name="card id" id="card id" placeholder="enter card number"></p>
+    <p>Expiry Date : <input type="date" name="date" id="date">></p>
+    <input type="submit" value="Pay Now">
+    <br>
+    <br>
+    <br>
+    <br>
+    <p><b>(Tap here to return to the shoping page: <a href="/static/products.html">Products</a> </b></p>
+</div>
+    </form>
+</body>
+</html>
