@@ -433,5 +433,4 @@ You can get information about an order you placed on the Apple Online Store thro
 ![support](support.png)
 
 ### Result:
-
-Thus a website is designed for the software product company and the HTML,CSS code are validated.
+The program for designing software company website using HTML and CSS is completed successfully.
