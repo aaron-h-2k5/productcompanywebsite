@@ -1,4 +1,4 @@
-## Web Design for a Software Product Company
+## Ex.07 Software Product Company Website
 
 ### Date: 02.12.23
 ### NAME: H. AARON
